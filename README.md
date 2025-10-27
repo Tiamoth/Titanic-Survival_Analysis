@@ -42,7 +42,7 @@ Insight: This aligns with the "women and children first" protocol.
 
 Finding 4: What was the age distribution of survivors?
 
-The plots show that children (under ~10) had a noticeably higher survival rate. Very elderly passengers (70+) had a very poor survival rate. For adults in the 20-40 age range, a large number did not survive.
+The plots show that children (under 10) had a noticeably higher survival rate. Very elderly passengers (70+) had a very poor survival rate. For adults in the 20-40 age range, a large number did not survive.
 
 Finding 5: How did family size affect survival?
 
