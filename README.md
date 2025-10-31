@@ -1,65 +1,51 @@
-Data Experimentation: Titanic Survival Analysis
+# 🚢 Data Experimentation: Titanic Survival Analysis
 
-This is a classic introductory data science project focused on Exploratory Data Analysis (EDA). The goal is to analyze the Titanic passenger dataset to uncover factors that influenced survival rates.
+## Project Overview
+This project performs an **Exploratory Data Analysis (EDA)** on the historical Titanic passenger dataset. The goal is to analyze survival trends and visualize the complex relationship between a passenger's attributes (Class, Gender, Age, and Family Size) and their probability of survival. This project follows a fundamental data science workflow.
 
-This project follows a simple 5-step data science workflow:
+***
 
-Acquire: Load the data from a .csv file.
+## 📊 Data Science Workflow
 
-Explore & Clean: Examine the data, identify missing values (like 'Age' or 'Cabin'), and handle them.
+This analysis follows a simple, repeatable 5-step workflow:
 
-Analyze: Ask specific questions about the data.
+1.  **Acquire:** Load the data from `titanic.csv`.
+2.  **Explore & Clean:** Examine data for missing values (e.g., 'Age', 'Cabin') and prepare it for analysis.
+3.  **Analyze:** Ask specific, testable questions about survival factors.
+4.  **Visualize:** Create plots to answer the questions and demonstrate the insights.
+5.  **Present:** Report the key findings and conclusions.
 
-Visualize: Create plots to answer those questions.
+### Dataset Source
+* **Source:** Kaggle: Titanic - Machine Learning from Disaster
+* **File Used:** `titanic.csv`
 
-Present: Report the findings.
+***
 
-Dataset
+## 📈 Key Findings & Visualizations
 
-Source: Kaggle: Titanic - Machine Learning from Disaster
+### Finding 1: Overall Survival Rate
+* **Insight:** Only **38.4%** of the passengers in this dataset survived the sinking of the Titanic.
+* **Visualization:** (plot_1_survival_rate.png)
 
-File Used: train.csv (renamed to titanic.csv)
+### Finding 2: Did Passenger Class Affect Survival?
+* **Insight:** Yes, dramatically. **1st Class** passengers had a significantly higher chance of survival than those in 3rd Class, suggesting a strong correlation between socio-economic status and lifeboat access.
+* **Visualization:** (plot_2_class_survival.png)
 
-Key Findings & Visualizations
+### Finding 3: Did Gender Affect Survival?
+* **Insight:** This was one of the strongest factors. Female passengers had a far higher survival rate than male passengers, aligning with the **"women and children first"** protocol.
+* **Visualization:** (plot_3_gender_survival.png)
 
-Here are the main questions I asked and the insights I found:
+### Finding 4: What was the Age Distribution of Survivors?
+* **Insight:** **Children (under 10)** had a noticeably higher survival rate. The vast majority of adults in the 20-40 age range did not survive.
+* **Visualization:** (plot_4_age_survival.png)
 
-Finding 1: What was the overall survival rate?
+### Finding 5: How did Family Size Affect Survival?
+* **Insight:** Passengers in **small families (Size 2-4)** had the best survival rate. Those traveling alone (Size 1) or in large families (Size 5+) had the worst outcomes, suggesting family management in the chaos was critical.
+* **Visualization:** (plot_5_family_survival.png)
 
-Only 38.4% of the passengers in this dataset survived the sinking of the Titanic.
+***
 
-Finding 2: Did passenger class affect survival?
-
-Yes, dramatically. Passengers in 1st Class had a much higher chance of survival than those in 3rd Class.
-
-Insight: This suggests a strong correlation between socio-economic status and survival.
-
-Finding 3: Did gender affect survival?
-
-Yes, this was one of the strongest factors. Female passengers had a far higher survival rate than male passengers.
-
-Insight: This aligns with the "women and children first" protocol.
-
-Finding 4: What was the age distribution of survivors?
-
-The plots show that children (under 10) had a noticeably higher survival rate. Very elderly passengers (70+) had a very poor survival rate. For adults in the 20-40 age range, a large number did not survive.
-
-Finding 5: How did family size affect survival?
-
-This was interesting.
-
-People traveling alone (FamilySize = 1) had a lower survival rate.
-
-People in small families (FamilySize = 2-4) had the best survival rate.
-
-People in large families (FamilySize = 5+) had a very poor survival rate.
-
-Insight: Traveling with a small group may have provided support, while trying to manage a large family in the chaos may have been a disadvantage.
-
-Tools Used
-
-Python 3
-
-Pandas: For data loading and manipulation (cleaning).
-
-Matplotlib & Seaborn: For data visualization.roup may have provided support, while trying to manage a large family in the chaos may have been a disadvantage.Tools UsedPython 3Pandas: For data loading and manipulation (cleaning).Matplotlib & Seaborn: For data visualization.
+## 🛠️ Tools Used
+* **Python 3**
+* **Pandas:** For data loading and manipulation (cleaning).
+* **Matplotlib & Seaborn:** For data visualization.
